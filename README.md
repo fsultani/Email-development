@@ -9,15 +9,21 @@
           <li>Run <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash</code> in 
           terminal.
             <ul>
-            <li>Note: On OS X, if you get <code>nvm: command not found</code> after running the install script, your system 
-            may not have a [.bash_profile file] where the command is set up. Simply create one with <code>touch 
-            ~/.bash_profile</code>, and run the install script again.
+              <li>Note: On OS X, if you get <code>nvm: command not found</code> after running the install script, your system 
+              may not have a [.bash_profile file] where the command is set up. Simply create one with <code>touch 
+              ~/.bash_profile</code>, and run the install script again.
               </li>
               <li>If the above doesn't fix the problem, open your .bash_profile (type <code>open ~/.bash_profile</code> in 
-              terminal), and add the following line of code: <code>source ~/.bashrc</code>.
+                terminal), and add the following line of code: <code>source ~/.bashrc</code>.
               </li>
-              <li>Close terminal, then reopen it.  Verify that nvm has been installed with <code>command -v nvm</code>.</li>
-          </ul>
+              <li>Close terminal, then reopen it.  Verify that nvm has been installed with <code>command -v nvm</code>.
+              </li>
+            </ul>
+           </li>
+           
+           <li>
+           To download, compile, and install the latest release of node, type <code>nvm install node</code>
+           </li>
         </ul>
       </li>
     </ul>
