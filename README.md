@@ -9,7 +9,7 @@
           <li>Run <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash</code> in 
           terminal.
             <ul>
-              <li>Note: On OS X, if you get nvm: command not found after running the install script, your system may not have 
+            <li>Note: On OS X, if you get <code>nvm: command not found</code> after running the install script, your system may not have 
               a [.bash_profile file] where the command is set up. Simply create one with <code>touch ~/.bash_profile</code> 
               and run the install script again.
               </li>
