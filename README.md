@@ -90,7 +90,11 @@
     <ul>
       <li>
         <code>sudo npm install</code>
+      </li>
+      <li>
         <code>sudo npm install grunt-cli -g</code>
+      </li>
+      <li>
         <code>sudo npm install grunt --save-dev</code>
       </li>
     </ul>
