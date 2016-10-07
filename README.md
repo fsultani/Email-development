@@ -5,6 +5,16 @@
   <h3><li>Install node</li></h3>
     <ul>
       <li>An easy way to do this is to install NVM, which is a Node Version Manager. That can be found here: <a href="https://github.com/creationix/nvm" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/creationix/nvm&amp;source=gmail&amp;ust=1473642155017000&amp;usg=AFQjCNFOVXZ710YV6ScwuFIuN51j238gnA">https://github.com/creationix/<wbr>nvm</a>.  This part of the process can be a bit tricky. You can ask Ryan Ponce to help you with the actual node install.
+        <ul>
+          <li>Run <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash</code> in 
+          terminal.
+            <ul>
+              <li>Note: On OS X, if you get nvm: command not found after running the install script, your system may not have 
+              a 
+              [.bash_profile file] where the command is set up. Simply create one with <code>touch ~/.bash_profile</code> and 
+              run the install script again.</li>
+          </ul>
+        </ul>
       </li><br>
       <li>I am currently using version 4.0, so to install that version with nvm, you want to run <code style="background-color:#d3d3d3">&nbsp; nvm install 4.0 &nbsp;</code>.
       </li><br>
