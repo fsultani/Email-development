@@ -17,6 +17,7 @@
               terminal), and add the following line of code: 
               <code>source ~/.bashrc</code>
               </li>
+              <li>Verify that nvm has been installed with <code>command -v nvm</code></li>
           </ul>
         </ul>
       </li><br>
