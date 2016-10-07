@@ -19,9 +19,7 @@
               <li>Close terminal, then reopen it.  Verify that nvm has been installed with <code>command -v nvm</code>.</li>
           </ul>
         </ul>
-      </li><br>
-      <li>I am currently using version 4.0, so to install that version with nvm, you want to run <code style="background-color:#d3d3d3">&nbsp; nvm install 4.0 &nbsp;</code>.
-      </li><br>
+      </li>
     </ul>
 
   <h3><li>Install grunt-cli</li></h3>
