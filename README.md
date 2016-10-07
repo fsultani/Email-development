@@ -41,7 +41,7 @@
 
   <h3><li>Clone Outbox</li></h3>
     <ul>
-      <li>In your terminal, run the following command: <code style="background-color:#d3d3d3">&nbsp; git clone <a href="https://github.com/Acornsgrow/Outbox.git" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/Acornsgrow/Outbox.git&amp;source=gmail&amp;ust=1473642155017000&amp;usg=AFQjCNH4JavbGvqePpyRFRAlSWm-wjEaPA">https://github.com/Acornsgrow/<wbr>Outbox.git</a> &nbsp;</code>
+      <li>In your terminal, run the following command: <code style="background-color:#d3d3d3">git clone <a href="https://github.com/Acornsgrow/Outbox.git" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/Acornsgrow/Outbox.git&amp;source=gmail&amp;ust=1473642155017000&amp;usg=AFQjCNH4JavbGvqePpyRFRAlSWm-wjEaPA">https://github.com/Acornsgrow/<wbr>Outbox.git</a> &nbsp;</code>
       </li><br>
     </ul>
 
