@@ -4,15 +4,18 @@
 <ol>
   <h3><li>Install node</li></h3>
     <ul>
-      <li>An easy way to do this is to install NVM, which is a Node Version Manager. That can be found at <a href="https://github.com/creationix/nvm" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/creationix/nvm&amp;source=gmail&amp;ust=1473642155017000&amp;usg=AFQjCNFOVXZ710YV6ScwuFIuN51j238gnA">https://github.com/creationix/nvm</a>.
+      <li>An easy way to do this is to install NVM, which is a Node Version Manager. It can be found at <a href="https://github.com/creationix/nvm" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/creationix/nvm&amp;source=gmail&amp;ust=1473642155017000&amp;usg=AFQjCNFOVXZ710YV6ScwuFIuN51j238gnA">https://github.com/creationix/nvm</a>.
         <ul>
           <li>Run <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash</code> in 
           terminal.
             <ul>
               <li>Note: On OS X, if you get nvm: command not found after running the install script, your system may not have 
-              a 
-              [.bash_profile file] where the command is set up. Simply create one with <code>touch ~/.bash_profile</code> and 
-              run the install script again.</li>
+              a [.bash_profile file] where the command is set up. Simply create one with <code>touch ~/.bash_profile</code> 
+              and run the install script again.
+              </li>
+              <li>If the above doesn't fix the problem, open your .bash_profile and add the following line of code: 
+              <code>source ~/.bashrc</code>
+              </li>
           </ul>
         </ul>
       </li><br>
