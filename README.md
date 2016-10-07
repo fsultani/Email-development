@@ -32,7 +32,7 @@
     <ul>
       <li>In your terminal, run the following commands:
       <ol>
-        <li><code style="background-color:#d3d3d3">&nbsp; sudo npm install &nbsp;</code></li>
+        <li><code style="background-color:#d3d3d3">sudo npm install &nbsp;</code></li>
         <li><code style="background-color:#d3d3d3">&nbsp; sudo npm install grunt-cli -g &nbsp;</code></li>
         <li><code style="background-color:#d3d3d3">&nbsp; sudo npm install grunt --save-dev &nbsp;</code></li>
       </ol>
