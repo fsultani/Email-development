@@ -13,7 +13,8 @@
               a [.bash_profile file] where the command is set up. Simply create one with <code>touch ~/.bash_profile</code> 
               and run the install script again.
               </li>
-              <li>If the above doesn't fix the problem, open your .bash_profile and add the following line of code: 
+              <li>If the above doesn't fix the problem, open your .bash_profile (type <code>open ~/.bash_profile</code> in 
+              terminal), and add the following line of code: 
               <code>source ~/.bashrc</code>
               </li>
           </ul>
