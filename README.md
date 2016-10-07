@@ -49,7 +49,7 @@
 
   <h3><li>Run Outbox</li></h3>
     <ul>
-      <li>While inside your Outbox directory run: <code style="background-color:#d3d3d3">&nbsp; grunt serve &nbsp;</code>
+      <li>While inside your Outbox directory run: <code style="background-color:#d3d3d3">grunt serve</code>
       </li><br>
       <li>This should pop up a browser window and display the <span class="il">emails</span> on that branch. If it does not automatically pop up, go ahead and navigate to <code>localhost:4000</code> in a browser window. In the top right corner, you will see a drop down menu of all <span class="il">emails</span> on the branch. Browse through the various <span class="il">emails</span>.</li>
     </ul>
@@ -57,7 +57,7 @@
   <h3><li>Let's look at Partials</li></h3>
   <ul>
     <li>
-    In your terminal inside the outbox directory, let's checkout the universal partials branch. Run the following command: <code style="background-color:#d3d3d3">&nbsp; git checkout universal_template &nbsp;</code>
+    In your terminal inside the outbox directory, let's checkout the universal partials branch. Run the following command: <code style="background-color:#d3d3d3">git checkout universal_template</code>
     </li><br>
     <li>This is the branch that holds the partials that were all designed for the nurture 3.0 campaign.</li><br>
   </ul>
