@@ -80,3 +80,22 @@
     </li><br>
   </ul>
 </ol>
+
+## Usage
+<ol>
+  <li><code>cd</code> into the directory you want work in.
+  <li>Make sure your <code>secrets.json</code> file is in that directory.
+  <li>Ensure npm is properly installed, along with grunt.
+    <ol>
+      <li>Run the following commands for npm and grunt:
+        <ol>
+          <li>
+            <code>sudo npm install</code>
+            <code>sudo npm install grunt-cli -g</code>
+            <code>sudo npm install grunt --save-dev</code>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
