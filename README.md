@@ -121,7 +121,7 @@
 		<li>Click "Import Rewards" to upload your csv file.</li>
 		<li>The csv file should be this format:
 			<ul>
-				<li>user_uuid,amount,campaign_id,origination_id,origination_type</li>
+				<li>user_uuid,amount,campaign_id,origination_id,origination_type\n93baa5e6-2b5d-439b-a074-ee1e7ebfe580,14.30,941c11a8-3c1e-46a1-9be5-269d4f3c48a8,86203,drfizzle</li>
 				<li>93baa5e6-2b5d-439b-a074-ee1e7ebfe580,14.30,941c11a8-3c1e-46a1-9be5-269d4f3c48a8,86203,drfizzle
 					<ul>
 						<li>Only change the campaign_id, and origination_id (you may also change the amount if you want)</li>
