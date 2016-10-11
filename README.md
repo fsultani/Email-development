@@ -105,7 +105,7 @@
 <ol>
 <h3><li>Development</li></h3>
 	<ol>
-		<li>On github, <code>cd</code> into Outbox - found_money_reward</li>
+		<li>In terminal, <code>cd</code> into Outbox - found_money_reward</li>
 		<li>Modify/update hbs file</li>
 		<li>Update the version at the top, in the <code>title</code> tag</li>
 	</ol>
