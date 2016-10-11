@@ -109,8 +109,6 @@
 		<li>Modify/update hbs file</li>
 		<li>Update the version at the top, in the <code><title></title></code> tag</li>
 	</ol>
-</ol>
-<ol>
 	<h3><li>Testing</li></h3>
 	<ol>
 		<li>In terminal, run the following commands:
