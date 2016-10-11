@@ -115,12 +115,12 @@
 	<ol>
 		<li>In terminal, run the following commands:
 			<ul>
-				<li>For ‘Coming Soon’: <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
-				<li>For ‘Invested’: <code>python admin-staging.py src/emails/invested-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+				<li>For 'Coming Soon': <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+				<li>For 'Invested': <code>python admin-staging.py src/emails/invested-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
 			</ul>
 		</li>
 		<li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
-		<li>Click “Import Rewards” to upload your csv file.</li>
+		<li>Click "Import Rewards" to upload your csv file.</li>
 		<li>The csv file should be this format:
 			<ul>
 				<li>user_uuid,amount,campaign_id,origination_id,origination_type</li>
