@@ -127,10 +127,12 @@
 	</li>
 </ol>
 <h3><li>Deployment</li></h3>
+<ul>
 <li>Once testing is done, upload the file(s) using terminal:
 		<ul>
 			<li>For ‘Coming Soon’: <code>python admin-staging.py src/emails/coming-soon-backup.hbs.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
 			<li>For ‘Invested’: <code>python admin-staging.py src/emails/invested-backup.hbs.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
 		</ul>
 	</li>
+</ul>
 </ol>
