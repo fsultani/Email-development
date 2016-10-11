@@ -104,9 +104,32 @@
 ## Found Money Emails
 <ol>
 <h3><li>Development</li></h3>
-  <ol>
+	<ol>
 		<li>On github, <code>cd</code> into Outbox - found_money_reward</li>
 		<li>Modify/update hbs file</li>
 		<li>Update the version at the top, in the <code><title></title></code> tag</li>
+	</ol>
+</ol>
+<ol>
+	<h3><li>Testing</li></h3>
+	<ol>
+		<li>In terminal, run the following commands:
+			<ul>
+				<li>For ‘Coming Soon’: <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+				<li>For ‘Invested’: <code>python admin-staging.py src/emails/invested-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+			</ul>
+		</li>
+		<li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
+		<li>Click “Import Rewards” to upload your csv file.</li>
+		<li>The csv file should be this format:
+			<ul>
+				<li>user_uuid,amount,campaign_id,origination_id,origination_type</li>
+				<li>93baa5e6-2b5d-439b-a074-ee1e7ebfe580,14.30,941c11a8-3c1e-46a1-9be5-269d4f3c48a8,86203,drfizzle
+					<ul>
+						<li>Only change the campaign_id, and origination_id (you may also change the amount if you want)</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
 	</ol>
 </ol>
