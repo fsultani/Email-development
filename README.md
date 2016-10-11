@@ -103,7 +103,7 @@
 
 ## Found Money Emails
 <ol>
-<li><h3>Development</h3></li>
+<h3><li>Development</li></h3>
   <ol>
 		<li>On github, <code>cd</code> into Outbox - found_money_reward</li>
 		<li>Modify/update hbs file</li>
