@@ -103,7 +103,7 @@
 
 ## Found Money Emails
 <ol>
-<h3><li>Development</li></h3>
+<h3><li>Staging</li></h3>
 	<ol>
 		<li>In terminal, <code>cd</code> into Outbox - found_money_reward</li>
 		<li>Modify/update hbs file</li>
