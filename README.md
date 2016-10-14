@@ -109,12 +109,12 @@
 		<li>Modify/update hbs file</li>
 		<li>Update the version at the top, in the <code>title</code> tag</li>
 	</ol>
-<h3><li>Testing</li></h3>
+<h3><li>Staging</li></h3>
 <ol>
 	<li>In terminal, run the following commands:
 		<ul>
 			<li>For 'Coming Soon': <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
-			<li>For 'Invested': <code>python admin-staging.py src/emails/invested-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+			<li>For 'Invested': <code>python admin-staging.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
 		</ul>
 	</li>
 	<li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
@@ -126,13 +126,4 @@
 		</ul>
 	</li>
 </ol>
-<h3><li>Staging</li></h3>
-<ul>
-<li>Once testing is done, upload the file(s) using terminal:
-		<ul>
-			<li>For ‘Coming Soon’: <code>python admin-staging.py src/emails/coming-soon-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
-			<li>For ‘Invested’: <code>python admin-staging.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
-		</ul>
-	</li>
-</ul>
 </ol>
