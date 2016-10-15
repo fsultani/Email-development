@@ -1,6 +1,10 @@
 # Email-development
 
-## Setup instructions
+* [Setup](#setup)
+* [Usage](#usage)
+* [Found Money Emails](#found-money-emails)
+
+## SETUP
 <ol>
   <h3><li>Install node</li></h3>
     <ul>
@@ -41,9 +45,8 @@
 
   <h3><li>Clone Outbox</li></h3>
     <ul>
-      <li>In your terminal, run the following command: <code style="background-color:#d3d3d3">git clone https://github.com/Acornsgrow/Outbox.git</code>
-      </li><br>
-    </ul>
+    <li>In your terminal, run <code style="background-color:#d3d3d3">git clone https://github.com/Acornsgrow/Outbox.git</code></li>
+  </ul>
 
   <h3><li>Create a 'secrets.json' file</li></h3>
 
@@ -104,26 +107,26 @@
 ## Found Money Emails
 <ol>
 <h3><li>Development</li></h3>
-	<ol>
-		<li>In terminal, <code>cd</code> into Outbox - found_money_reward</li>
-		<li>Modify/update hbs file</li>
-		<li>Update the version at the top, in the <code>title</code> tag</li>
-	</ol>
+  <ol>
+    <li>In terminal, <code>cd</code> into Outbox - found_money_reward</li>
+    <li>Modify/update hbs file</li>
+    <li>Update the version at the top, in the <code>title</code> tag</li>
+  </ol>
 <h3><li>Staging</li></h3>
 <ol>
-	<li>In terminal, run the following commands:
-		<ul>
-			<li>For 'Coming Soon': <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
-			<li>For 'Invested': <code>python admin-staging.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
-		</ul>
-	</li>
-	<li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
-	<li>Click "Import Rewards" to upload your csv file.</li>
-	<li>The csv file should be this format:
-		<ul>
-			<li>user_uuid,amount,campaign_id,origination_id,origination_type<br>93baa5e6-2b5d-439b-a074-ee1e7ebfe580,14.30,941c11a8-3c1e-46a1-9be5-269d4f3c48a8,86203,drfizzle
-			<li>Only change the campaign_id, and origination_id (you may also change the amount if you want)</li>
-		</ul>
-	</li>
+  <li>In terminal, run the following commands:
+    <ul>
+      <li>For 'Coming Soon': <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+      <li>For 'Invested': <code>python admin-staging.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
+    </ul>
+  </li>
+  <li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
+  <li>Click "Import Rewards" to upload your csv file.</li>
+  <li>The csv file should be this format:
+    <ul>
+      <li>user_uuid,amount,campaign_id,origination_id,origination_type<br>93baa5e6-2b5d-439b-a074-ee1e7ebfe580,14.30,941c11a8-3c1e-46a1-9be5-269d4f3c48a8,86203,drfizzle
+      <li>Only change the campaign_id, and origination_id (you may also change the amount if you want)</li>
+    </ul>
+  </li>
 </ol>
 </ol>
