@@ -116,8 +116,8 @@
 <ol>
   <li>In terminal, run the following commands:
     <ul>
-      <li>For 'Coming Soon': <code>python admin-staging.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
-      <li>For 'Invested': <code>python admin-staging.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
+      <li>For 'Coming Soon': <code>python admin-staging-pending.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+      <li>For 'Invested': <code>python admin-staging-fulfilled.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code></li>
     </ul>
   </li>
   <li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
