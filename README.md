@@ -116,7 +116,7 @@
 <ol>
   <li>'Coming Soon'
     <ul>
-      <li>For 'Coming Soon', run <code>python admin-staging-pending.py src/emails/coming-soon-backup.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
+      <li>For 'Coming Soon', run <code>python admin-staging-pending.py src/emails/pending.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code></li>
       <li>Go to https://adminstaging.acorns.com/offers/campaigns?locale=en, and select the campaign you’re working on.</li>
       <li>Click "Import Rewards" to upload your csv file.</li>
       <li>The csv file should be this format:
@@ -129,7 +129,7 @@
   </li>
 	<li>'Invested'
 		<ul>
-			<li>Run <code>python admin-staging-fulfilled.py src/emails/invested-backup.hbs a9c7f27a-75ae-4857-8b63-3953fcc924f9</code>
+			<li>Run <code>python admin-staging-pending.py src/emails/fulfilled.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code>
 			</li>
 		</ul>
 	</li>
