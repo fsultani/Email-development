@@ -129,7 +129,7 @@
   </li>
 	<li>'Invested'
 		<ul>
-			<li>Run <code>python admin-staging-pending.py src/emails/fulfilled.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code>
+			<li>Run <code>python admin-staging-fulfilled.py src/emails/fulfilled.hbs 047fd374-ba74-4dac-9d49-d9b39f5fd44e</code>
 			</li>
 		</ul>
 	</li>
